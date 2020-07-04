@@ -5,3 +5,4 @@
 ## NLP
 [Word2Vec之Skip-Gram](https://zhuanlan.zhihu.com/p/27234078)<br>
 [Golve模型](https://zhuanlan.zhihu.com/p/42073620)
+[负采样](https://zhuanlan.zhihu.com/p/39684349)
