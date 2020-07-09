@@ -13,6 +13,8 @@ auth.set_access_token(access_token, access_token_secret)
  
 api = tweepy.API(auth)
 
+CovidList = []
 for tweet in tweepy.Cursor(api.search,q='COVID19').items(10):
-    print(tweet.text)
+    CovidList.append(tweet.text)
 ```
+Texts are stored in the <em>CovidList</em>.
