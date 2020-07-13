@@ -103,4 +103,5 @@ print(ldamodel.print_topics(num_topics=2,num_words=4))
 最后的结果：<em>[(0, '0.007*"mask" + 0.005*"join" + 0.005*"help" + 0.005*"challenge"'), (1, '0.008*"death" + 0.007*"patient" + 0.005*"positive" + 0.005*"blood"')]</em><br>
 
 ## 6.总结
-可以发现，第一个主题的四个关键词是mask，join，help，challenge，我们或许可以根据这四个单词联想到，人们获取口罩是一种挑战或是口罩帮助人们客服挑战之类；而第二个主题与death,patient,blood有关，显然这与医院中的救援相关；这些就是我们从用户的tweets中获取的主题。
+可以发现，第一个主题的四个关键词是mask，join，help，challenge，我们或许可以根据这四个单词联想到，人们获取口罩是一种挑战或是口罩帮助人们客服挑战之类；而第二个主题与death,patient,blood有关，显然这与医院中的救援相关；这些就是我们从用户的tweets中获取的主题，本次训练结果总体来说还可以接受。<br>
+本人第一次写类似主题的文字，对于LDA模型的具体细节还是一知半解的状态，代码也是直接套用的模型，如果本文中有不恰当的地方，尽情指正。
