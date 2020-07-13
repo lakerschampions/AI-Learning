@@ -23,6 +23,7 @@ import seaborn as sns
 ```
 
 ## 1.连接api
+```
 consumer_key = 'XXXXXXXXX'
 consumer_secret = 'XXXXXXXX'
 access_token = 'XXXXXXXX'
@@ -32,6 +33,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
  
 api = tweepy.API(auth,wait_on_rate_limit=True, wait_on_rate_limit_notify=True)  #排除速率限制带来的干扰
+```
 
 ## 2.获取hashtag为“COVID19”的10000条tweets
 抓取具有特定hashtag的10000条最新的tweets，规定语言为英语
