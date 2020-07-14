@@ -35,11 +35,11 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True, wait_on_rate_limit_notify=True)  #排除速率限制带来的干扰
 ```
 
-## 2.获取hashtag为“COVID19”的10000条tweets
-抓取具有特定hashtag的10000条最新的tweets，规定语言为英语
+## 2.获取hashtag为“COVID19”的100条tweets
+抓取具有特定hashtag的100条最新的tweets，规定语言为英语
 ```
 CovidList = []
-i = 10000
+i = 100
 t1 = time.time()
 
 tweets = api.search(q='COVID19',lang='en',tweet_mode='extended',count=i)
