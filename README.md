@@ -10,4 +10,4 @@
 - [Golve模型](http://www.fanyeong.com/2018/02/19/glove-in-detail/)
 
 # 自己写的小文
-- [用PDA主题聚类分析推特数据的简单python代码实现](https://github.com/lakerschampions/Machine_Learning/tree/master/twitter-as-data)
+- [Analysis of Twitter Data Based on Topic Models](https://github.com/lakerschampions/Machine_Learning/blob/master/twitter-as-data/summer_intern.pdf)
